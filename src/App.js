@@ -12,9 +12,11 @@ export default function App() {
     async function fetchFlag() {
       setLoading(true);
       const response = await fetch(
-        "https://wgg522pwivhvi5gqsn675gth3q0otdja.lambda-url.us-east-1.on.aws/62616c"
+        process.env.REACT_APP_DECODED_FLAG_URL
       );
       const flagText = await response.text();
+
+      console.log(process.env.REACT_APP_DECODED_FLAG_URL);
 
       setFlag(flagText);
       setLoading(false);

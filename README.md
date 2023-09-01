@@ -1,10 +1,22 @@
-# Ramp Challenge
+# ctf-takehome
+
+Installation:
+1. Run `npm install`.
+2. Run `npm start`.
+
+You will need `REACT_APP_DECODED_FLAG_URL="URL_HERE"` from step 2 in your `.env` file for the app to run properly.
+
+`index.html` and `ctf.js` are for steps 1 and 2, and the React portion is for the rest of the steps.
+
+Details of the take-home are below:
+
+## Ramp Challenge
 
 Thanks for applying to Ramp. Solve this CTF[1] challenge and add the result to your application.
 
 We recommend opening this file with a Markdown viewer. (https://www.google.com/search?q=markdown+viewer)
 
-## Instructions
+### Instructions
 
 1. Open this [link](https://tns4lpgmziiypnxxzel5ss5nyu0nftol.lambda-url.us-east-1.on.aws/challenge)
 2. Find a hidden URL within the HTML
@@ -41,7 +53,7 @@ Pattern of the DOM tree for each valid character of the URL
 
 Bonus: Add as a comment the script you used to to get the URL in step 2
 
-## Submission
+### Submission
 
 Paste the flag you captured in step 2 and the link to your CodeSandbox in the job application with the following format:
 
